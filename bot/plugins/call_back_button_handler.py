@@ -69,6 +69,6 @@ async def button(bot, update: CallbackQuery):
 
         elif cb_data == "fuckoff":
             try:
-                await update.message.edit_text("Okay! Fine 🤬")
+                await update.message.edit_text("New Thumbnail Added")
             except:
                 pass
